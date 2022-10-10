@@ -81,13 +81,6 @@ function sayThanks(name) {
 
 sayThanks('Cole');
 
-
-function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs'){
-  console.log(`Remember to buy ${item1}`);
-  console.log(`Remember to buy ${item2}`);
-  console.log(`Remember to buy ${item3}`);
-}
-
 function monitorCount(rows, columns) {
   return rows * columns;
 }
@@ -202,7 +195,7 @@ for (let i = 0; i < rapperArray.length; i++){
 console.log("And if you don't know, now you know.");
 
 
-const hobbies = ['kayaking', 'snowboarding', 'napping'];
+const hobbies = ['sport', 'shooping', 'film'];
 
 console.log(hobbies);
 
@@ -214,12 +207,12 @@ console.log(famousSayings[2]);
 
 console.log(famousSayings[3]);
 
-let groceryList = ['bread', 'tomatoes', 'milk'];
+let groceryList = ['bread', 'pomme', 'jus'];
 
-groceryList[1] = 'avocados';
+groceryList[1] = 'tomate';
 
 
-let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+let condiments = ['mayonnaise ', 'moutarde', 'Soy Sauce', 'piment'];
 
 const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
 
@@ -254,7 +247,7 @@ chores.pop();
 console.log(chores)
 
 
-const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+const groceryList = ['pomme juice', 'fraise', 'tea', 'brown rice', 'sushi', 'coconut oil', 'plantains'];
 
 groceryList.shift();
 
